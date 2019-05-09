@@ -1,0 +1,19 @@
+<script language = "javaScript">
+	
+	let size = 70;
+	let mess = "";
+
+	for (let i = 0; i < size; i++) {
+		for (let j = 0; j < size; j++) {
+			if ( (i + j)%2 == 0 ) {
+				mess+="#";
+			}else{
+				mess+=" ";
+			}
+		}
+		if((i+1) < size) mess+="\n";
+	}
+
+	console.log(mess);
+
+</script>
